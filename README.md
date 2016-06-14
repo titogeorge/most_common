@@ -19,5 +19,6 @@ mvn versions:set -DgenerateBackupPoms=false -DnewVersion=myproject-`git rev-pars
 > **Note:**
 
 > - Used with CD tool to easily root-cause "My code not deployed" Bug 
+> - Sets version in format '**myproject-branch_name-commit_hash**'
 
 [Markdown by StackEdit](https://stackedit.io/)
